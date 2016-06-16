@@ -25,7 +25,7 @@ app.post('/ciao', function (req, res, next) {
   } else {
     return res.status(200).end();
   }
-)};
+});
 
 app.post('/hola', function (req, res, next) {
   var userName = req.body.user_name;
